@@ -9,6 +9,8 @@ Always be commiting. Deploy early and often.
 
 **Consider your data flow and ERD**. It's easier to embed _both_ your second and third model into your first, rather than embed your third into your second. Think carefully about how you want to structure your models.
 
+**Don't spend too much time on your third-party API**. Having a cool API is a really fun stretch goal, but you can waste most a good amount of your week trying to incorporate it into your project. Also, consider how your API is going to fit into your ERD. **Don't build your entire project around your API and lose track of the project requirements!**
+
 Here's a rough sketch of what you should do and in what order:
 
 ### Planning
@@ -45,6 +47,10 @@ db.find.collection_name().pretty()
 For _Rails_, type the following commands to set up your database:
 
 ``rails db:create db:migrate db:seed``
+
+To see if your database has been seeded correctly in _Rails_, run the _Rails_ console:
+
+``rails c``
 
 If your database is set up the way you want it to be, go ahead and seed to _Heroku_. For _Express_:
 
