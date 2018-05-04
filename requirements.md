@@ -60,7 +60,7 @@ Stretch Goals:
  * Auth using Devise
  * Redux
  * Automated Tests Using Jest / Rails
- * Use a third-party API e.g. Google Maps for geolocation, or anything you want.
+ * Use a third-party API e.g. Google Maps for geolocation, or anything you want
 
 ### Necessary Deliverables
 

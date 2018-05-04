@@ -46,7 +46,7 @@ db.find.collection_name().pretty()
 
 For _Rails_, type the following commands to set up your database:
 
-``rails db:create db:migrate db:seed``
+``rails db:migrate db:seed``
 
 To see if your database has been seeded correctly in _Rails_, run the _Rails_ console:
 
@@ -72,9 +72,9 @@ And for _Rails_:
 
 ### Work on your second model
 * __Set up your back-end routes__. Try your best to get full CRUD on your second model in _Express_ or _Rails_. Just like with your first model, work on the "show" route first. If you are short on time, jump into _React_ after getting your "show" route finished in _Express_ or _Rails_. For reference, [this codealong](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/react/react-fullstack-codealong.md) uses two models in _Express_, and [this codealong](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/rails/react-on-rails.md) for _Rails_. **Reference your User Stories!**
-* __Set up your front-end routes__. Work on your routes in _React_ to pull in your second model. Again, try and achieve full CRUD, but concentrate mainly on getting your "show" route to render in the front-end. Follow [the same codealong](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/react/react-fullstack-codealong.md) for _React on Express_, and [this codealong](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/rails/react-on-rails.md) for guidance.
+* __Set up your front-end routes__. Work on your routes in _React_ to pull in your second model. Again, try and achieve full CRUD, but concentrate mainly on getting your "show" route to render in the front-end. Follow [the same codealong](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/react/react-fullstack-codealong.md) for _React on Express_, and [this codealong](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/rails/react-on-rails.md) on _Rails_ for guidance.
 * __Basic styling__. Work on some basic styling for your individual "show" page in _React_. Take note of your components and where they are being rendered on the page, as this helps with knowing _where_ to implement your styling. **Reference your Wireframes!**
-* __Implement your API (optional)__. If you are at a good point in your project, especially in regards to time, then start setting up your third-party API. [Here](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/rails/rails-httparty-and-heroku.md) is a reminder of how to use HTTParty using _Ruby_, and [here](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/ajax/api-intro-with-ajax.md) is a codealong for making API calls using _AJAX_.
+* __Implement your API (optional)__. If you are at a good point in your project, especially in regards to time, then start setting up your third-party API. [Here](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/rails/rails-httparty-and-heroku.md) is a reminder of how to use HTTParty using _Ruby_, and [here](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/ajax/api-intro-with-ajax.md) is a codealong for making API calls using in _React_ using _AJAX_.
 
 ### Work on your third model
 * __Set up your back-end routes__. Try your best to get full CRUD on your third model in _Express_ or _Rails_. Just like with your first and second models, work on the "show" route first. If you are short on time, jump into _React_ after getting your "show" route finished on your back-end. **Reference your User Stories!**
