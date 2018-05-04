@@ -9,7 +9,7 @@ Always be commiting. Deploy early and often.
 
 **Consider your data flow and ERD**. It's easier to embed _both_ your second and third model into your first, rather than embed your third into your second. Think carefully about how you want to structure your models.
 
-**Don't spend too much time on your third-party API**. Having a cool API is a really fun stretch goal, but you can waste most a good amount of your week trying to incorporate it into your project. Also, consider how your API is going to fit into your ERD. **Don't build your entire project around your API and lose track of the project requirements!**
+**Don't spend too much time on your third-party API**. Having a cool API is a really fun stretch goal, but you can waste a good amount of your week trying to incorporate it into your project. Also, consider how your API is going to fit into your ERD. **Don't build your entire project around your API and lose track of the project requirements!**
 
 Here's a rough sketch of what you should do and in what order:
 
@@ -74,6 +74,7 @@ And for _Rails_:
 * __Set up your back-end routes__. Try your best to get full CRUD on your second model in _Express_ or _Rails_. Just like with your first model, work on the "show" route first. If you are short on time, jump into _React_ after getting your "show" route finished in _Express_ or _Rails_. For reference, [this codealong](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/react/react-fullstack-codealong.md) uses two models in _Express_, and [this codealong](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/rails/react-on-rails.md) for _Rails_. **Reference your User Stories!**
 * __Set up your front-end routes__. Work on your routes in _React_ to pull in your second model. Again, try and achieve full CRUD, but concentrate mainly on getting your "show" route to render in the front-end. Follow [the same codealong](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/react/react-fullstack-codealong.md) for _React on Express_, and [this codealong](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/rails/react-on-rails.md) for guidance.
 * __Basic styling__. Work on some basic styling for your individual "show" page in _React_. Take note of your components and where they are being rendered on the page, as this helps with knowing _where_ to implement your styling. **Reference your Wireframes!**
+* __Implement your API (optional)__. If you are at a good point in your project, especially in regards to time, then start setting up your third-party API. [Here](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/rails/rails-httparty-and-heroku.md) is a reminder of how to use HTTParty using _Ruby_, and [here](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/instructor_notes/ajax/api-intro-with-ajax.md) is a codealong for making API calls using _AJAX_.
 
 ### Work on your third model
 * __Set up your back-end routes__. Try your best to get full CRUD on your third model in _Express_ or _Rails_. Just like with your first and second models, work on the "show" route first. If you are short on time, jump into _React_ after getting your "show" route finished on your back-end. **Reference your User Stories!**
